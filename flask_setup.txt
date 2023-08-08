@@ -1,0 +1,5 @@
+create virtual env: python3 -m venv venv
+activate virtual env: source venv/bin/activate
+install flask: pip install flask
+
+run app with: export FLASK_APP=microblog.py; flask run
