@@ -5,3 +5,15 @@ install flask: pip install flask
 run app with: export FLASK_APP=microblog.py; flask run
 
 for forms install: pip install flask-wtf
+
+for sql install: pip install flask-sqlalchemy
+for db mogrations install: pip install flask-migrate
+
+after creating models
+to initialize db: flask db init
+to create migration script: flask db migrate -m"some message"
+to apply migration: flask dp upgrade
+
+for login functunality install: pip install flask-login
+
+for email validation install: pip install email-validator
